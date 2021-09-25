@@ -10,4 +10,4 @@ rm named.conf.local
 wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/db.gsb.lan
 wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/db.gsb.lan.rev
 wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/named.conf.local
-systemctl redémarrer bind9
+systemctl restart bind9
