@@ -1,0 +1,6 @@
+apt update -y
+apt installer bind9 -y
+cd /etc
+rm host.conf
+rm resolv.conf
+wget
