@@ -1,0 +1,8 @@
+apt update -y
+apt installer apache2 libapache2-mod-php -y
+apt installer apache2 -y
+apt install mariadb-server -y
+apt installer php-mysql -y
+apt install mariadb-server -y
+mysql_secure_installation
+cd /var/www/html/
