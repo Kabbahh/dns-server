@@ -3,4 +3,11 @@ apt installer bind9 -y
 cd /etc
 rm host.conf
 rm resolv.conf
-wget
+wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/host.conf
+wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/resolv.conf
+reliure cd /
+rm named.conf.local
+wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/db.gsb.lan
+wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/db.gsb.lan.rev
+wget https://raw.githubusercontent.com/Kabbahh/dns-server/main/named.conf.local
+systemctl redémarrer bind9
